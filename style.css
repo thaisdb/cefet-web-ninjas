@@ -4,7 +4,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    color: #666666;
+    color: #808080;
     font-size: 120%;
     text-align: justify;
     margin-left: 250px;
@@ -20,8 +20,8 @@ h1 {
     text-align: center;
     size: 40px;
 }
+
 h2 {
-    background-color: #1a0000;
     font-family: Blippo, fantasy;
     color: #800000;
     text-align: center;
@@ -60,12 +60,30 @@ a:active {
     text-decoration: none;
 }
 
-ul {
-}
-
-li {
+ a[href] {
+    
     list-style-type: none;
-    background-image: url(img/arrow.png);
+    background-image: url(img/novo-globo.png);
     background-repeat: no-repeat;
     padding-left: 25px;
+    
+}
+
+
+strong {
+    background-color: #1a0000;
+    font-size: 200%;
+    border-style: solid;
+    border-color: #1a0000;
+    border-width: 4px 20px;
+}
+
+.nota{ 
+    opacity: 0.5;
+}
+
+
+strong + em {
+    font-size: 130%;
+
 }
